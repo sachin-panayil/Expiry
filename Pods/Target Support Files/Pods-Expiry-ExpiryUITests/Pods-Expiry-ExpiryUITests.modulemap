@@ -1,0 +1,6 @@
+framework module Pods_Expiry_ExpiryUITests {
+  umbrella header "Pods-Expiry-ExpiryUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

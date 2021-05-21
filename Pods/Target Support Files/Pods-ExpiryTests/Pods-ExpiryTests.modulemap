@@ -1,0 +1,6 @@
+framework module Pods_ExpiryTests {
+  umbrella header "Pods-ExpiryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
