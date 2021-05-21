@@ -15,9 +15,11 @@
 		1949E706263A28730015B785 /* ExpiryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E705263A28730015B785 /* ExpiryTests.swift */; };
 		1949E711263A28730015B785 /* ExpiryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E710263A28730015B785 /* ExpiryUITests.swift */; };
 		1949E7332645F3630015B785 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E7322645F3630015B785 /* LoginViewController.swift */; };
-		1949E7382645F3730015B785 /* FoodItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E7372645F3730015B785 /* FoodItemViewController.swift */; };
 		1949E73D2645F4C40015B785 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E73C2645F4C40015B785 /* RegisterViewController.swift */; };
-		1949E74226462C5E0015B785 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E74126462C5E0015B785 /* SettingsViewController.swift */; };
+		1949E74226462C5E0015B785 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E74126462C5E0015B785 /* ProfileViewController.swift */; };
+		1949E75D264F574F0015B785 /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E75C264F574F0015B785 /* AddFoodViewController.swift */; };
+		1949E76D264F5EB10015B785 /* YourFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E76C264F5EB10015B785 /* YourFoodViewController.swift */; };
+		1949E772264F5EE50015B785 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E771264F5EE50015B785 /* PostCell.swift */; };
 		8CF7B7D73515866F573FB2B2 /* Pods_Expiry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76485D51F3517E9A043F24A8 /* Pods_Expiry.framework */; };
 		BB10C6DBF4082C4163FE7989 /* Pods_Expiry_ExpiryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110495A2C4CB34A12688DEEB /* Pods_Expiry_ExpiryUITests.framework */; };
 		F9AB5BFE10564ED2D28B0ACF /* Pods_ExpiryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5B364ED6299B9548CAC357 /* Pods_ExpiryTests.framework */; };
@@ -57,9 +59,11 @@
 		1949E710263A28730015B785 /* ExpiryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiryUITests.swift; sourceTree = "<group>"; };
 		1949E712263A28730015B785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1949E7322645F3630015B785 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		1949E7372645F3730015B785 /* FoodItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemViewController.swift; sourceTree = "<group>"; };
 		1949E73C2645F4C40015B785 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		1949E74126462C5E0015B785 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1949E74126462C5E0015B785 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1949E75C264F574F0015B785 /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		1949E76C264F5EB10015B785 /* YourFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourFoodViewController.swift; sourceTree = "<group>"; };
+		1949E771264F5EE50015B785 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		1E90EC8FC2364C8DF1EE4C0E /* Pods-ExpiryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpiryTests.release.xcconfig"; path = "Target Support Files/Pods-ExpiryTests/Pods-ExpiryTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D84C0F35F47695453C4AB14 /* Pods-Expiry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expiry.release.xcconfig"; path = "Target Support Files/Pods-Expiry/Pods-Expiry.release.xcconfig"; sourceTree = "<group>"; };
 		72F22A17BE5429073D4A1F26 /* Pods-Expiry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expiry.debug.xcconfig"; path = "Target Support Files/Pods-Expiry/Pods-Expiry.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,9 +133,11 @@
 				1949E6F9263A28720015B785 /* LaunchScreen.storyboard */,
 				1949E6FC263A28720015B785 /* Info.plist */,
 				1949E7322645F3630015B785 /* LoginViewController.swift */,
-				1949E7372645F3730015B785 /* FoodItemViewController.swift */,
 				1949E73C2645F4C40015B785 /* RegisterViewController.swift */,
-				1949E74126462C5E0015B785 /* SettingsViewController.swift */,
+				1949E74126462C5E0015B785 /* ProfileViewController.swift */,
+				1949E75C264F574F0015B785 /* AddFoodViewController.swift */,
+				1949E76C264F5EB10015B785 /* YourFoodViewController.swift */,
+				1949E771264F5EE50015B785 /* PostCell.swift */,
 			);
 			path = Expiry;
 			sourceTree = "<group>";
@@ -415,12 +421,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1949E75D264F574F0015B785 /* AddFoodViewController.swift in Sources */,
+				1949E76D264F5EB10015B785 /* YourFoodViewController.swift in Sources */,
 				1949E7332645F3630015B785 /* LoginViewController.swift in Sources */,
 				1949E73D2645F4C40015B785 /* RegisterViewController.swift in Sources */,
-				1949E7382645F3730015B785 /* FoodItemViewController.swift in Sources */,
 				1949E6EF263A28700015B785 /* AppDelegate.swift in Sources */,
 				1949E6F1263A28700015B785 /* SceneDelegate.swift in Sources */,
-				1949E74226462C5E0015B785 /* SettingsViewController.swift in Sources */,
+				1949E74226462C5E0015B785 /* ProfileViewController.swift in Sources */,
+				1949E772264F5EE50015B785 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
